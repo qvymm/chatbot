@@ -1,0 +1,201 @@
+Timestamp,EventID,AccountName,AccountDomain,Computer,LogonType,LogonTypeName,IpAddress,ProcessName,LogonID,Outcome,FailureReason,StatusCode,ElevatedToken
+1/9/2025 10:02,4625,eve,WORKGROUP,WIN10-LAB02,2,Interactive,-,C:\Windows\System32\svchost.exe,0xe0d53c,Failure,Denied by policy.,0xc000006d,-
+1/9/2025 11:43,4624,david,CORP,TERMINAL-03,3,Network,10.148.167.31,C:\Windows\System32\winlogon.exe,0x7f64a5,Success,,,No
+1/9/2025 15:06,4625,alice,WORKGROUP,WIN11-USER,5,Service,-,C:\Windows\System32\services.exe,0x40ff39,Failure,Unknown user name or bad password.,0xc000006a,-
+1/9/2025 15:26,4624,victor,CORP,WEB-SERVER-1,4,Batch,-,C:\Windows\System32\winlogon.exe,0x3b5206,Success,,,No
+1/9/2025 15:33,4624,peggy,CORP,DC01,3,Network,10.41.191.58,C:\Windows\System32\winlogon.exe,0x51a554,Success,,,No
+1/9/2025 16:22,4625,mallory,CORP,VM-LINUX-01,5,Service,-,-,0x679842,Failure,Logon hours restriction.,0xc000006a,-
+1/9/2025 18:13,4624,service_app,WORKGROUP,WIN11-USER,7,Unlock,-,C:\Program Files\App\app.exe,0x387ecb,Success,,,No
+1/9/2025 19:05,4625,svc_backup,CORP,DC01,2,Interactive,-,C:\Windows\System32\svchost.exe,0x46050c,Failure,Account disabled.,0xc000006a,-
+1/9/2025 19:58,4625,oscar,CORP,WEB-SERVER-1,2,Interactive,-,C:\Windows\System32\svchost.exe,0x84c871,Failure,Account disabled.,0xc0000234,-
+1/9/2025 20:00,4624,mallory,CORP,DC01,2,Interactive,-,C:\Windows\System32\services.exe,0x59f4b6,Success,,,No
+1/9/2025 21:08,4625,eve,CORP,VM-LINUX-01,3,Network,10.54.152.216,-,0x9bf578,Failure,Account locked out.,0xc000006d,-
+1/9/2025 21:55,4624,eve,CORP,VM-LINUX-01,2,Interactive,-,C:\Windows\System32\svchost.exe,0x7882bd,Success,,,No
+2/9/2025 8:59,4624,svc_backup,WORKGROUP,WIN10-LAB02,10,RemoteInteractive,170.52.6.147,C:\Windows\System32\services.exe,0x783a65,Success,,,No
+2/9/2025 9:40,4624,eve,WORKGROUP,WIN10-PC01,2,Interactive,-,C:\Windows\System32\services.exe,0xc57811,Success,,,Yes
+2/9/2025 9:59,4624,charlie,CORP,TERMINAL-03,10,RemoteInteractive,10.32.197.98,-,0xff11cf,Success,,,No
+2/9/2025 15:51,4625,victor,CORP,DC01,2,Interactive,-,C:\Windows\System32\winlogon.exe,0x3aaaca,Failure,Denied by policy.,0xc0000234,-
+2/9/2025 16:11,4625,victor,WORKGROUP,WIN11-USER,3,Network,10.243.77.246,C:\Windows\System32\winlogon.exe,0x73657b,Failure,Unknown user name or bad password.,0xc000006a,-
+2/9/2025 16:16,4624,eve,CORP,DC01,2,Interactive,-,C:\Program Files\App\app.exe,0xdd7ac7,Success,,,No
+2/9/2025 21:17,4624,bob,CORP,WEB-SERVER-1,2,Interactive,-,-,0x4b1dbb,Success,,,No
+2/9/2025 22:39,4624,eve,WORKGROUP,WIN10-PC01,3,Network,190.161.108.168,C:\Program Files\App\app.exe,0x655821,Success,,,No
+3/9/2025 8:10,4624,victor,WORKGROUP,WIN10-PC01,2,Interactive,-,-,0x36a147,Success,,,No
+3/9/2025 8:34,4625,bob,CORP,VM-LINUX-01,3,Network,10.248.109.139,C:\Windows\System32\svchost.exe,0xb93da2,Failure,Denied by policy.,0xc0000234,-
+3/9/2025 8:57,4624,victor,WORKGROUP,WIN10-PC01,10,RemoteInteractive,10.226.217.125,-,0x7139ce,Success,,,No
+3/9/2025 11:13,4625,service_app,CORP,WEB-SERVER-1,5,Service,-,-,0xc2974f,Failure,Denied by policy.,0xc000006a,-
+3/9/2025 11:22,4624,bob,WORKGROUP,WIN11-USER,3,Network,10.126.20.159,C:\Windows\System32\winlogon.exe,0x6b6252,Success,,,No
+3/9/2025 12:16,4624,eve,WORKGROUP,WIN10-LAB02,10,RemoteInteractive,10.50.51.114,C:\Windows\System32\svchost.exe,0xb1ba0f,Success,,,No
+3/9/2025 13:01,4625,trent,CORP,DC01,7,Unlock,-,C:\Windows\System32\services.exe,0xd21f87,Failure,Unknown user name or bad password.,0xc000006a,-
+3/9/2025 13:58,4625,peggy,CORP,WEB-SERVER-1,4,Batch,-,C:\Program Files\App\app.exe,0xdf647e,Failure,Denied by policy.,0xc000006d,-
+3/9/2025 14:16,4624,service_app,WORKGROUP,WIN11-USER,2,Interactive,-,-,0xbc4536,Success,,,No
+3/9/2025 15:12,4625,svc_backup,CORP,DC01,3,Network,10.86.39.131,C:\Windows\System32\winlogon.exe,0x87e5b7,Failure,Denied by policy.,0xc000006d,-
+3/9/2025 15:17,4624,victor,WORKGROUP,WIN11-USER,10,RemoteInteractive,10.76.155.22,C:\Windows\System32\svchost.exe,0x1e62d7,Success,,,No
+3/9/2025 17:11,4624,alice,WORKGROUP,WIN10-LAB02,10,RemoteInteractive,10.224.81.94,C:\Windows\System32\services.exe,0xeb0de7,Success,,,No
+3/9/2025 19:11,4624,trent,CORP,WEB-SERVER-1,7,Unlock,-,-,0xf45883,Success,,,No
+3/9/2025 21:19,4624,bob,CORP,TERMINAL-03,7,Unlock,-,C:\Windows\System32\svchost.exe,0x20ee43,Success,,,No
+4/9/2025 8:27,4625,david,WORKGROUP,WIN10-LAB02,3,Network,10.44.216.9,C:\Windows\System32\winlogon.exe,0x180c69,Failure,Account locked out.,0xc000006d,-
+4/9/2025 8:55,4624,peggy,CORP,TERMINAL-03,2,Interactive,-,C:\Windows\System32\winlogon.exe,0xed3662,Success,,,No
+4/9/2025 10:55,4624,svc_backup,CORP,WEB-SERVER-1,4,Batch,-,C:\Program Files\App\app.exe,0xd055dd,Success,,,No
+4/9/2025 12:19,4624,mallory,CORP,VM-LINUX-01,4,Batch,-,C:\Windows\System32\services.exe,0x5add5,Success,,,No
+4/9/2025 12:31,4624,peggy,CORP,WEB-SERVER-1,3,Network,10.142.236.64,C:\Windows\System32\winlogon.exe,0x718104,Success,,,No
+4/9/2025 14:55,4624,service_app,CORP,TERMINAL-03,4,Batch,-,C:\Windows\System32\svchost.exe,0x5ed42e,Success,,,No
+4/9/2025 15:22,4624,mallory,WORKGROUP,WIN10-LAB02,7,Unlock,-,C:\Program Files\App\app.exe,0xd50fa6,Success,,,No
+4/9/2025 15:28,4624,service_app,CORP,TERMINAL-03,5,Service,-,C:\Windows\System32\winlogon.exe,0xf7f8f8,Success,,,No
+4/9/2025 16:13,4624,victor,WORKGROUP,WIN10-PC01,10,RemoteInteractive,10.154.234.165,C:\Windows\System32\winlogon.exe,0xfa240,Success,,,No
+4/9/2025 16:16,4624,svc_backup,WORKGROUP,WIN11-USER,4,Batch,-,-,0x619ae3,Success,,,No
+4/9/2025 16:24,4625,service_app,CORP,TERMINAL-03,3,Network,10.149.139.107,C:\Program Files\App\app.exe,0xfb014f,Failure,Logon hours restriction.,0xc000006d,-
+4/9/2025 16:31,4625,charlie,CORP,TERMINAL-03,3,Network,146.187.46.203,C:\Program Files\App\app.exe,0x3a02c,Failure,Account disabled.,0xc0000234,-
+4/9/2025 17:05,4624,alice,WORKGROUP,WIN11-USER,7,Unlock,-,-,0x3dffa8,Success,,,No
+4/9/2025 20:57,4625,bob,CORP,DC01,2,Interactive,-,C:\Windows\System32\svchost.exe,0x45e5a6,Failure,Logon hours restriction.,0xc0000234,-
+4/9/2025 21:00,4624,charlie,WORKGROUP,WIN10-LAB02,2,Interactive,-,C:\Windows\System32\services.exe,0xeaea79,Success,,,No
+4/9/2025 21:34,4624,oscar,CORP,TERMINAL-03,4,Batch,-,-,0x980a7f,Success,,,No
+4/9/2025 21:53,4624,david,CORP,DC01,10,RemoteInteractive,10.122.88.142,C:\Windows\System32\winlogon.exe,0x282285,Success,,,No
+4/9/2025 22:09,4625,eve,WORKGROUP,WIN10-PC01,7,Unlock,-,C:\Windows\System32\winlogon.exe,0xeddb8c,Failure,Account disabled.,0xc0000234,-
+4/9/2025 22:26,4625,service_app,WORKGROUP,WIN11-USER,7,Unlock,-,C:\Windows\System32\svchost.exe,0x6e2910,Failure,Logon hours restriction.,0xc000006d,-
+4/9/2025 22:29,4625,alice,CORP,DC01,7,Unlock,-,C:\Program Files\App\app.exe,0xa96976,Failure,Account disabled.,0xc000006d,-
+5/9/2025 8:45,4624,alice,CORP,DC01,3,Network,10.52.181.200,-,0xe266a6,Success,,,No
+5/9/2025 8:48,4624,mallory,CORP,TERMINAL-03,10,RemoteInteractive,10.237.245.162,C:\Windows\System32\svchost.exe,0xcfce4f,Success,,,No
+5/9/2025 8:49,4625,eve,CORP,WEB-SERVER-1,2,Interactive,-,C:\Windows\System32\winlogon.exe,0x3c2bda,Failure,Denied by policy.,0xc000006d,-
+5/9/2025 9:08,4625,oscar,WORKGROUP,WIN10-PC01,4,Batch,-,C:\Windows\System32\svchost.exe,0xb46e3,Failure,Account locked out.,0xc000006d,-
+5/9/2025 9:21,4624,eve,CORP,DC01,7,Unlock,-,C:\Program Files\App\app.exe,0xa66bb1,Success,,,No
+5/9/2025 10:44,4624,svc_backup,WORKGROUP,WIN10-LAB02,10,RemoteInteractive,10.212.208.85,-,0x7756d0,Success,,,No
+5/9/2025 10:49,4624,bob,CORP,VM-LINUX-01,7,Unlock,-,-,0x9b9d1,Success,,,No
+5/9/2025 12:13,4624,eve,CORP,WEB-SERVER-1,4,Batch,-,C:\Windows\System32\winlogon.exe,0xe62ede,Success,,,No
+5/9/2025 12:26,4624,victor,WORKGROUP,WIN11-USER,3,Network,10.40.195.159,C:\Windows\System32\svchost.exe,0x7f771e,Success,,,No
+5/9/2025 13:00,4624,victor,CORP,VM-LINUX-01,10,RemoteInteractive,10.150.232.130,-,0x6e318b,Success,,,No
+5/9/2025 13:18,4624,victor,CORP,DC01,3,Network,10.95.43.135,C:\Windows\System32\services.exe,0x11636e,Success,,,No
+5/9/2025 14:04,4624,service_app,WORKGROUP,WIN10-LAB02,4,Batch,-,C:\Windows\System32\services.exe,0xf7caf5,Success,,,No
+5/9/2025 14:21,4625,david,CORP,DC01,4,Batch,-,C:\Windows\System32\svchost.exe,0x703cdd,Failure,Denied by policy.,0xc0000234,-
+5/9/2025 15:33,4624,oscar,CORP,VM-LINUX-01,5,Service,-,C:\Windows\System32\services.exe,0x87018,Success,,,No
+5/9/2025 15:55,4624,peggy,WORKGROUP,WIN11-USER,4,Batch,-,-,0xcef624,Success,,,No
+5/9/2025 15:57,4624,david,CORP,TERMINAL-03,5,Service,-,C:\Windows\System32\services.exe,0xee4368,Success,,,No
+5/9/2025 17:55,4624,mallory,CORP,VM-LINUX-01,7,Unlock,-,C:\Windows\System32\svchost.exe,0x6e1680,Success,,,No
+5/9/2025 17:59,4625,victor,CORP,VM-LINUX-01,5,Service,-,C:\Windows\System32\winlogon.exe,0xc6c33f,Failure,Account disabled.,0xc000006d,-
+5/9/2025 21:48,4625,oscar,CORP,VM-LINUX-01,2,Interactive,-,C:\Windows\System32\winlogon.exe,0x4ed70,Failure,Account disabled.,0xc000006d,-
+6/9/2025 11:29,4624,oscar,CORP,DC01,10,RemoteInteractive,10.144.51.214,C:\Windows\System32\svchost.exe,0x4be6ce,Success,,,No
+6/9/2025 11:39,4624,peggy,CORP,DC01,7,Unlock,-,-,0xe9ea48,Success,,,No
+6/9/2025 13:39,4624,peggy,CORP,WEB-SERVER-1,2,Interactive,-,C:\Windows\System32\svchost.exe,0xfe1490,Success,,,No
+7/9/2025 9:33,4624,trent,CORP,WEB-SERVER-1,7,Unlock,-,C:\Windows\System32\svchost.exe,0xb0dbc6,Success,,,No
+7/9/2025 10:40,4624,david,CORP,WEB-SERVER-1,7,Unlock,-,C:\Windows\System32\winlogon.exe,0x74a627,Success,,,No
+7/9/2025 13:12,4624,alice,CORP,TERMINAL-03,10,RemoteInteractive,10.63.188.112,C:\Program Files\App\app.exe,0xbe5969,Success,,,No
+7/9/2025 17:49,4625,svc_backup,WORKGROUP,WIN10-LAB02,10,RemoteInteractive,10.191.224.231,-,0x73a498,Failure,Unknown user name or bad password.,0xc000006d,-
+8/9/2025 9:09,4624,victor,CORP,VM-LINUX-01,3,Network,10.3.36.182,C:\Windows\System32\winlogon.exe,0x3aabed,Success,,,No
+8/9/2025 9:34,4624,oscar,WORKGROUP,WIN10-LAB02,5,Service,-,-,0x9c4eb2,Success,,,No
+8/9/2025 10:41,4624,alice,CORP,TERMINAL-03,2,Interactive,-,C:\Program Files\App\app.exe,0x3815f9,Success,,,No
+8/9/2025 11:01,4624,oscar,WORKGROUP,WIN10-LAB02,5,Service,-,C:\Windows\System32\winlogon.exe,0x2a35a8,Success,,,No
+8/9/2025 11:37,4625,victor,WORKGROUP,WIN10-LAB02,3,Network,10.58.111.120,C:\Windows\System32\services.exe,0xc4636f,Failure,Account disabled.,0xc000006d,-
+8/9/2025 12:51,4624,svc_backup,WORKGROUP,WIN10-PC01,5,Service,-,C:\Windows\System32\winlogon.exe,0xdbdcc4,Success,,,No
+8/9/2025 13:34,4624,mallory,CORP,WEB-SERVER-1,7,Unlock,-,-,0x58107c,Success,,,No
+8/9/2025 13:38,4625,oscar,CORP,TERMINAL-03,3,Network,10.225.236.197,C:\Windows\System32\services.exe,0xc74323,Failure,Logon hours restriction.,0xc0000234,-
+8/9/2025 13:58,4625,victor,WORKGROUP,WIN10-PC01,4,Batch,-,C:\Windows\System32\svchost.exe,0xfcde96,Failure,Account locked out.,0xc0000234,-
+8/9/2025 14:34,4624,alice,WORKGROUP,WIN11-USER,7,Unlock,-,C:\Windows\System32\svchost.exe,0x464944,Success,,,No
+8/9/2025 16:05,4624,svc_backup,CORP,TERMINAL-03,5,Service,-,C:\Windows\System32\svchost.exe,0x88c4f4,Success,,,No
+8/9/2025 16:53,4624,trent,CORP,WEB-SERVER-1,2,Interactive,-,C:\Program Files\App\app.exe,0x561c95,Success,,,No
+8/9/2025 18:43,4624,charlie,CORP,DC01,2,Interactive,-,C:\Windows\System32\svchost.exe,0xbdf13c,Success,,,No
+8/9/2025 19:47,4624,eve,CORP,TERMINAL-03,3,Network,10.84.157.153,-,0xebe346,Success,,,No
+8/9/2025 19:47,4624,oscar,WORKGROUP,WIN11-USER,4,Batch,-,C:\Program Files\App\app.exe,0x1dee79,Success,,,No
+8/9/2025 22:41,4624,peggy,CORP,TERMINAL-03,7,Unlock,-,-,0xacdb46,Success,,,No
+9/9/2025 8:41,4624,trent,CORP,DC01,10,RemoteInteractive,10.223.59.99,-,0x30b900,Success,,,No
+9/9/2025 8:48,4625,alice,CORP,VM-LINUX-01,7,Unlock,-,C:\Windows\System32\svchost.exe,0x5d4d9e,Failure,Logon hours restriction.,0xc000006d,-
+9/9/2025 10:06,4625,svc_backup,CORP,VM-LINUX-01,3,Network,10.107.175.53,C:\Windows\System32\services.exe,0x81727c,Failure,Logon hours restriction.,0xc000006a,-
+9/9/2025 10:56,4625,peggy,WORKGROUP,WIN11-USER,5,Service,-,-,0x289b6,Failure,Unknown user name or bad password.,0xc000006d,-
+9/9/2025 10:59,4624,oscar,CORP,TERMINAL-03,4,Batch,-,C:\Windows\System32\services.exe,0xcdf22f,Success,,,No
+9/9/2025 12:11,4624,david,CORP,DC01,2,Interactive,-,-,0xf37cb6,Success,,,No
+9/9/2025 14:11,4624,victor,WORKGROUP,WIN11-USER,4,Batch,-,-,0x2a943,Success,,,No
+9/9/2025 19:39,4624,david,WORKGROUP,WIN11-USER,4,Batch,-,C:\Windows\System32\winlogon.exe,0x3ab2e4,Success,,,No
+9/9/2025 21:59,4624,bob,CORP,DC01,5,Service,-,C:\Windows\System32\svchost.exe,0x74373c,Success,,,No
+9/9/2025 22:32,4624,service_app,CORP,TERMINAL-03,2,Interactive,-,C:\Windows\System32\svchost.exe,0x3dde2,Success,,,No
+10/9/2025 8:31,4624,alice,CORP,DC01,4,Batch,-,C:\Windows\System32\services.exe,0x6e517d,Success,,,No
+10/9/2025 10:13,4624,trent,WORKGROUP,WIN11-USER,7,Unlock,-,C:\Program Files\App\app.exe,0x102421,Success,,,No
+10/9/2025 13:34,4624,svc_backup,CORP,WEB-SERVER-1,3,Network,10.179.228.11,C:\Windows\System32\services.exe,0x9d76e8,Success,,,No
+10/9/2025 15:03,4624,mallory,WORKGROUP,WIN11-USER,7,Unlock,-,C:\Windows\System32\winlogon.exe,0xca1ac6,Success,,,No
+10/9/2025 15:58,4625,oscar,WORKGROUP,WIN10-PC01,2,Interactive,-,-,0xccafd3,Failure,Account locked out.,0xc0000234,-
+10/9/2025 15:59,4624,svc_backup,CORP,DC01,10,RemoteInteractive,10.139.252.113,C:\Windows\System32\winlogon.exe,0x9928ee,Success,,,No
+10/9/2025 18:41,4624,service_app,CORP,WEB-SERVER-1,3,Network,10.247.176.86,-,0xc35b9f,Success,,,No
+10/9/2025 18:55,4624,bob,CORP,VM-LINUX-01,7,Unlock,-,C:\Windows\System32\svchost.exe,0x27ac65,Success,,,No
+10/9/2025 19:08,4625,service_app,CORP,VM-LINUX-01,2,Interactive,-,-,0x4cb415,Failure,Unknown user name or bad password.,0xc000006d,-
+10/9/2025 19:37,4625,svc_backup,CORP,DC01,5,Service,-,C:\Windows\System32\services.exe,0x330fe2,Failure,Logon hours restriction.,0xc000006a,-
+10/9/2025 20:20,4624,oscar,CORP,VM-LINUX-01,10,RemoteInteractive,10.112.202.253,-,0xe1630,Success,,,No
+10/9/2025 20:52,4624,oscar,WORKGROUP,WIN10-PC01,10,RemoteInteractive,10.135.101.109,C:\Windows\System32\winlogon.exe,0x8b7870,Success,,,No
+10/9/2025 22:29,4624,alice,CORP,DC01,7,Unlock,-,C:\Windows\System32\winlogon.exe,0x4f86e3,Success,,,No
+11/9/2025 8:13,4625,oscar,WORKGROUP,WIN10-PC01,5,Service,-,C:\Windows\System32\services.exe,0xa2c5b4,Failure,Logon hours restriction.,0xc0000234,-
+11/9/2025 9:02,4624,oscar,CORP,VM-LINUX-01,7,Unlock,-,C:\Windows\System32\svchost.exe,0xe9fa8,Success,,,No
+11/9/2025 9:11,4624,peggy,WORKGROUP,WIN11-USER,5,Service,-,C:\Windows\System32\services.exe,0x4092cb,Success,,,No
+11/9/2025 9:49,4625,oscar,WORKGROUP,WIN10-PC01,7,Unlock,-,C:\Program Files\App\app.exe,0x3fdd1,Failure,Account locked out.,0xc000006a,-
+11/9/2025 9:51,4624,bob,CORP,DC01,4,Batch,-,-,0x43c7a3,Success,,,No
+11/9/2025 11:51,4624,mallory,CORP,TERMINAL-03,5,Service,-,C:\Windows\System32\services.exe,0xc093b7,Success,,,No
+11/9/2025 12:26,4625,victor,WORKGROUP,WIN10-LAB02,2,Interactive,-,-,0x351843,Failure,Denied by policy.,0xc000006d,-
+11/9/2025 12:44,4624,svc_backup,CORP,DC01,3,Network,10.67.153.118,C:\Windows\System32\services.exe,0xede425,Success,,,No
+11/9/2025 13:38,4624,peggy,CORP,WEB-SERVER-1,4,Batch,-,C:\Windows\System32\winlogon.exe,0xc0e7ac,Success,,,No
+11/9/2025 19:20,4624,bob,WORKGROUP,WIN11-USER,4,Batch,-,-,0x4f3d47,Success,,,No
+11/9/2025 19:25,4624,oscar,WORKGROUP,WIN10-PC01,5,Service,-,C:\Program Files\App\app.exe,0xa1b274,Success,,,No
+11/9/2025 21:57,4624,victor,CORP,WEB-SERVER-1,3,Network,10.84.224.12,C:\Program Files\App\app.exe,0x5d52b9,Success,,,No
+11/9/2025 22:48,4624,svc_backup,CORP,TERMINAL-03,10,RemoteInteractive,179.47.216.131,C:\Windows\System32\services.exe,0x4bac1,Success,,,No
+12/9/2025 8:06,4624,charlie,CORP,VM-LINUX-01,10,RemoteInteractive,10.72.15.24,-,0x3722f2,Success,,,No
+12/9/2025 9:36,4624,bob,WORKGROUP,WIN10-LAB02,5,Service,-,-,0x6693e1,Success,,,No
+12/9/2025 9:58,4624,oscar,WORKGROUP,WIN10-PC01,7,Unlock,-,-,0x540838,Success,,,No
+12/9/2025 11:48,4624,svc_backup,WORKGROUP,WIN11-USER,10,RemoteInteractive,10.87.125.42,C:\Program Files\App\app.exe,0x6133fd,Success,,,No
+12/9/2025 11:57,4624,david,CORP,TERMINAL-03,4,Batch,-,C:\Windows\System32\winlogon.exe,0xfb2e14,Success,,,No
+12/9/2025 11:59,4624,victor,CORP,DC01,10,RemoteInteractive,10.70.49.232,C:\Windows\System32\winlogon.exe,0x4f2639,Success,,,No
+12/9/2025 13:37,4624,david,CORP,DC01,5,Service,-,C:\Windows\System32\svchost.exe,0x3a0eb9,Success,,,No
+12/9/2025 14:23,4625,service_app,CORP,TERMINAL-03,3,Network,10.74.131.51,C:\Windows\System32\svchost.exe,0x9a46d1,Failure,Account locked out.,0xc0000234,-
+12/9/2025 17:54,4625,service_app,CORP,DC01,2,Interactive,-,C:\Program Files\App\app.exe,0x46b02a,Failure,Account locked out.,0xc000006d,-
+12/9/2025 18:30,4624,bob,WORKGROUP,WIN10-PC01,10,RemoteInteractive,10.148.40.219,C:\Windows\System32\svchost.exe,0xdde1df,Success,,,No
+12/9/2025 21:52,4624,peggy,WORKGROUP,WIN10-PC01,7,Unlock,-,C:\Windows\System32\services.exe,0x7d2543,Success,,,No
+12/9/2025 22:46,4624,alice,CORP,VM-LINUX-01,7,Unlock,-,-,0x5473ad,Success,,,No
+13/09/2025 08:02,4625,eve,CORP,TERMINAL-03,5,Service,-,C:\Windows\System32\services.exe,0x6c5a37,Failure,Denied by policy.,0xc0000234,-
+13/09/2025 10:20,4624,bob,CORP,DC01,7,Unlock,-,C:\Program Files\App\app.exe,0xa4cbf9,Success,,,No
+13/09/2025 12:59,4624,service_app,CORP,TERMINAL-03,10,RemoteInteractive,200.254.146.199,C:\Windows\System32\svchost.exe,0x9b789c,Success,,,No
+13/09/2025 14:07,4624,mallory,WORKGROUP,WIN10-LAB02,5,Service,-,C:\Windows\System32\svchost.exe,0x5ae5cf,Success,,,No
+13/09/2025 15:01,4625,service_app,WORKGROUP,WIN10-LAB02,5,Service,-,C:\Windows\System32\winlogon.exe,0x2061ac,Failure,Denied by policy.,0xc0000234,-
+13/09/2025 15:13,4625,david,WORKGROUP,WIN10-PC01,7,Unlock,-,C:\Windows\System32\svchost.exe,0x1a2634,Failure,Account disabled.,0xc0000234,-
+13/09/2025 15:38,4624,charlie,CORP,DC01,4,Batch,-,C:\Windows\System32\services.exe,0xc6eeb2,Success,,,No
+13/09/2025 16:15,4624,svc_backup,WORKGROUP,WIN11-USER,7,Unlock,-,C:\Program Files\App\app.exe,0x966bef,Success,,,No
+13/09/2025 16:17,4625,david,WORKGROUP,WIN11-USER,3,Network,10.119.210.12,C:\Windows\System32\services.exe,0xbeb4ff,Failure,Logon hours restriction.,0xc0000234,-
+13/09/2025 16:40,4624,mallory,CORP,DC01,5,Service,-,C:\Program Files\App\app.exe,0x89d8d2,Success,,,No
+13/09/2025 17:58,4625,eve,CORP,DC01,3,Network,10.164.238.114,C:\Program Files\App\app.exe,0xad05e8,Failure,Account locked out.,0xc0000234,-
+13/09/2025 18:46,4624,alice,WORKGROUP,WIN10-PC01,10,RemoteInteractive,10.236.93.13,C:\Windows\System32\services.exe,0x611cf3,Success,,,No
+13/09/2025 20:22,4625,peggy,CORP,DC01,2,Interactive,-,C:\Windows\System32\winlogon.exe,0xe09596,Failure,Account disabled.,0xc000006d,-
+13/09/2025 21:10,4624,oscar,WORKGROUP,WIN10-LAB02,7,Unlock,-,-,0x6f745,Success,,,No
+14/09/2025 09:08,4624,trent,CORP,WEB-SERVER-1,7,Unlock,-,C:\Windows\System32\winlogon.exe,0xdb62ca,Success,,,No
+14/09/2025 10:57,4625,victor,WORKGROUP,WIN10-LAB02,4,Batch,-,C:\Windows\System32\winlogon.exe,0xa4344f,Failure,Logon hours restriction.,0xc000006a,-
+14/09/2025 11:11,4624,peggy,WORKGROUP,WIN11-USER,3,Network,10.181.36.102,C:\Windows\System32\winlogon.exe,0x6fbc16,Success,,,No
+14/09/2025 12:35,4625,oscar,WORKGROUP,WIN10-PC01,10,RemoteInteractive,10.179.114.167,C:\Windows\System32\winlogon.exe,0xc80ee3,Failure,Unknown user name or bad password.,0xc000006d,-
+14/09/2025 12:58,4624,peggy,WORKGROUP,WIN10-PC01,4,Batch,-,C:\Program Files\App\app.exe,0x1c7345,Success,,,No
+14/09/2025 12:59,4624,alice,WORKGROUP,WIN10-PC01,10,RemoteInteractive,10.186.81.244,C:\Windows\System32\winlogon.exe,0x249d31,Success,,,No
+14/09/2025 13:56,4624,eve,CORP,VM-LINUX-01,3,Network,10.194.89.158,-,0x4d1b0d,Success,,,No
+14/09/2025 14:10,4625,trent,CORP,WEB-SERVER-1,10,RemoteInteractive,10.218.160.171,C:\Windows\System32\services.exe,0x5fe231,Failure,Account locked out.,0xc0000234,-
+14/09/2025 15:29,4624,svc_backup,WORKGROUP,WIN10-PC01,10,RemoteInteractive,10.50.31.104,C:\Windows\System32\services.exe,0xcd03a1,Success,,,No
+14/09/2025 18:37,4624,david,WORKGROUP,WIN10-LAB02,7,Unlock,-,C:\Program Files\App\app.exe,0x1755d6,Success,,,No
+14/09/2025 18:58,4625,charlie,CORP,VM-LINUX-01,4,Batch,-,C:\Windows\System32\services.exe,0x1a53db,Failure,Unknown user name or bad password.,0xc000006a,-
+14/09/2025 19:02,4624,victor,WORKGROUP,WIN10-LAB02,7,Unlock,-,C:\Program Files\App\app.exe,0x7364ea,Success,,,No
+14/09/2025 19:17,4625,david,CORP,TERMINAL-03,3,Network,90.211.12.46,C:\Windows\System32\services.exe,0xc85a7b,Failure,Logon hours restriction.,0xc0000234,-
+14/09/2025 19:27,4624,svc_backup,WORKGROUP,WIN11-USER,5,Service,-,C:\Program Files\App\app.exe,0x665fa6,Success,,,No
+14/09/2025 21:34,4624,mallory,WORKGROUP,WIN11-USER,5,Service,-,C:\Windows\System32\services.exe,0x4e8ed8,Success,,,No
+15/09/2025 08:36,4624,svc_backup,WORKGROUP,WIN10-LAB02,2,Interactive,-,C:\Windows\System32\services.exe,0x53b3dd,Success,,,No
+15/09/2025 08:38,4624,david,CORP,TERMINAL-03,10,RemoteInteractive,10.196.16.155,C:\Windows\System32\svchost.exe,0xade702,Success,,,No
+15/09/2025 08:54,4624,bob,CORP,WEB-SERVER-1,3,Network,180.162.226.157,-,0x6d4ee1,Success,,,No
+15/09/2025 09:40,4624,service_app,WORKGROUP,WIN11-USER,7,Unlock,-,C:\Windows\System32\winlogon.exe,0xd02b6,Success,,,No
+15/09/2025 10:36,4624,david,WORKGROUP,WIN11-USER,7,Unlock,-,-,0x435308,Success,,,No
+15/09/2025 10:53,4625,oscar,CORP,WEB-SERVER-1,4,Batch,-,C:\Windows\System32\svchost.exe,0xd71141,Failure,Account disabled.,0xc0000234,-
+15/09/2025 13:03,4624,victor,CORP,WEB-SERVER-1,10,RemoteInteractive,68.240.178.105,C:\Windows\System32\services.exe,0x5240df,Success,,,No
+15/09/2025 13:14,4624,charlie,WORKGROUP,WIN10-PC01,5,Service,-,C:\Windows\System32\services.exe,0xfce6bd,Success,,,No
+15/09/2025 13:24,4625,trent,CORP,DC01,7,Unlock,-,-,0xf7b40,Failure,Denied by policy.,0xc0000234,-
+15/09/2025 15:02,4624,charlie,CORP,WEB-SERVER-1,10,RemoteInteractive,10.136.42.187,C:\Program Files\App\app.exe,0x14448f,Success,,,No
+15/09/2025 16:13,4624,mallory,CORP,TERMINAL-03,4,Batch,-,C:\Windows\System32\winlogon.exe,0xa518dc,Success,,,No
+15/09/2025 17:37,4624,peggy,CORP,TERMINAL-03,2,Interactive,-,C:\Windows\System32\winlogon.exe,0xae9492,Success,,,No
+15/09/2025 18:02,4624,david,CORP,VM-LINUX-01,7,Unlock,-,C:\Windows\System32\svchost.exe,0xdd40de,Success,,,No
+15/09/2025 18:43,4624,alice,CORP,TERMINAL-03,3,Network,10.174.142.40,C:\Windows\System32\svchost.exe,0xf51bea,Success,,,No
+16/09/2025 09:13,4624,bob,WORKGROUP,WIN10-PC01,5,Service,-,C:\Windows\System32\winlogon.exe,0xbead61,Success,,,No
+16/09/2025 10:49,4624,david,WORKGROUP,WIN10-PC01,7,Unlock,-,-,0xfaaea,Success,,,No
+16/09/2025 12:02,4624,oscar,CORP,DC01,4,Batch,-,C:\Windows\System32\svchost.exe,0x392184,Success,,,No
+16/09/2025 12:04,4625,mallory,CORP,TERMINAL-03,7,Unlock,-,C:\Windows\System32\services.exe,0x1d791f,Failure,Account disabled.,0xc0000234,-
+16/09/2025 12:25,4625,trent,WORKGROUP,WIN10-LAB02,2,Interactive,-,C:\Windows\System32\winlogon.exe,0xa8c317,Failure,Logon hours restriction.,0xc000006a,-
+16/09/2025 15:18,4624,bob,CORP,WEB-SERVER-1,10,RemoteInteractive,63.41.164.156,C:\Windows\System32\svchost.exe,0x10e08d,Success,,,No
+16/09/2025 16:01,4624,alice,CORP,DC01,5,Service,-,C:\Windows\System32\winlogon.exe,0xd2862b,Success,,,No
+16/09/2025 16:27,4624,svc_backup,CORP,VM-LINUX-01,4,Batch,-,C:\Windows\System32\services.exe,0xda19df,Success,,,No
+16/09/2025 18:00,4624,peggy,CORP,TERMINAL-03,7,Unlock,-,C:\Program Files\App\app.exe,0xf6f07c,Success,,,No
+16/09/2025 19:23,4624,alice,WORKGROUP,WIN10-LAB02,4,Batch,-,-,0x219a15,Success,,,No
+16/09/2025 19:24,4624,oscar,WORKGROUP,WIN10-PC01,10,RemoteInteractive,10.139.171.82,-,0x14b0bc,Success,,,No
+16/09/2025 19:45,4625,oscar,CORP,TERMINAL-03,2,Interactive,-,C:\Windows\System32\winlogon.exe,0x4b6305,Failure,Account locked out.,0xc000006a,-
+16/09/2025 22:26,4625,svc_backup,WORKGROUP,WIN10-LAB02,10,RemoteInteractive,10.171.47.210,C:\Windows\System32\svchost.exe,0xac4c56,Failure,Account disabled.,0xc000006d,-
